@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping Website</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/amazon-ember"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar row">
+      <div class="col-12 col-md-3">
+        <div class="navbar-brand">
+          <img width="150px" src="./images/logo.png" class="logo"/>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 mt-2 mt-md-0">
+        <div class="input-group">
+          <input
+            type="text"
+            id="search_field"
+            class="form-control"
+            placeholder="Enter Product Name ..."
+          />
+          <div class="input-group-append">
+            <button id="search_btn" class="btn">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 mt-4 mt-md-0 text-center">
+        <span id="cart" class="ml-3">Cart</span>
+        <span class="ml-1" id="cart_count">2</span>
+      </div>
+    </nav>
+
+    <h1 id="products_heading">Latest Products</h1>
+
+    <section id="products" class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+          <div class="card p-3 rounded">
+            <img
+              class="card-img-top mx-auto"
+              src="./images/products/1.jpg"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <a href="">OPPO F21s Pro 5G (Dawnlight Gold, 8GB RAM, 128 Storage) with No Cost EMI/Additional Exchange Offers</a>
+              </h5>
+              <div class="ratings mt-auto">
+                <div class="rating-outer">
+                  <div class="rating-inner"></div>
+                </div>
+              </div>
+              <p class="card-text">$245.67</p>
+              <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+          <div class="card p-3 rounded">
+            <img
+              class="card-img-top mx-auto"
+              src="./images/products/2.jpg"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <a href=""
+                  >Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 512GB Storage)</a
+                >
+              </h5>
+              <div class="ratings mt-auto">
+               <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <span id="no_of_reviews">(5 Reviews)</span>
+              </div>
+              <p class="card-text">$150.32</p>
+              <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+          <div class="card p-3 rounded">
+            <img
+              class="card-img-top mx-auto"
+              src="./images/products/3.jpg"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <a href=""
+                  >Redmi 13 5g Black Diamond Redmi 13 5G, 6GB+128GB| 108MP Pro Grade Camera | 6.79in Largest Display in Segment
+                  </a
+                >
+              </h5>
+              <div class="ratings mt-auto">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <span id="no_of_reviews">(5 Reviews)</span>
+              </div>
+              <p class="card-text">$440.57</p>
+              <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+          <div class="card p-3 rounded">
+            <img
+              class="card-img-top mx-auto"
+              src="./images/products/4.jpg"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <a href="">POCO M6 5G (Galactic Black, 8GB RAM, 256GB Storage) | MediaTek Dimensity 6100+ 5G Processor | 5000 mAh Battery + 18W Fast Charging</a>
+              </h5>
+              <div class="ratings mt-auto">
+               <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <span id="no_of_reviews">(5 Reviews)</span>
+              </div>
+              <p class="card-text">$15.46</p>
+
+              <a type="button" href="#" id="view_btn" class="btn btn-block">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+          <div class="card p-3 rounded">
+            <img
+              class="card-img-top mx-auto"
+              src="./images/products/5.jpg"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <a href="">realme 13 Pro+ 5G (Monet Gold, 8GB RAM, 256GB) | Upto 16GB Dynamic RAM | Snapdragon 7s Gen2 Processor</a>
+              </h5>
+              <div class="ratings mt-auto">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <span id="no_of_reviews">(5 Reviews)</span>
+              </div>
+              <p class="card-text">$10.12</p>
+              <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-1 bg-dark">
+      <p class="text-center text-white mt-1 ">
+        Shopping Website - 2023-2024, All Rights Reserved
+      </p>
+    </footer>
+
+    <script type="text/javascript">
+      const stars = 5;
+      const rating = 4.5;
+ 
+      const starPercentage = `${(rating / stars) * 100}%`;
+      
+      document.querySelector(`.rating-inner`).style.width = starPercentage; 
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+[
+    {
+       "name":"OPPO F21s Pro 5G (Dawnlight Gold, 8GB RAM, 128 Storage) with No Cost EMI/Additional Exchange Offers",
+       "price":"245$",
+       "description":"OPPO RE200 Elbow Brace Compression Sleeve - for Tendonitis Pain, Tennis Elbow, Golfer's Elbow, Arthritis, Workouts - for Women and Men (Black, X-Large, Pack of 1)",
+       "rating":4.2,
+       "images":[
+        {
+        "image":"/images/products/1.jpg"
+        }
+       ],
+       "catagory":"Mobile Phone",
+       "seller":"Amazon",
+       "stock":5
+    },
+    {
+        "name":"Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Gray, 12GB, 512GB Storage)",
+        "price":40000,
+        "description":"S24 Ultra 5G Smartphone, 6+256GB Unlocked Phone,48+108MP Zoom Cameran6800mAh 6.8  HD Screen Unlocked Cell Phone, 6+256GB Android13.0,Face ID/Fingerprint Lock/GPS",
+        "rating":4.5,
+
+        
+        "images":[
+         {
+         "image":"/images/products/2.jpg"
+         }
+        ],
+        "catagory":"Mobile Phone",
+        "seller":"Amazon",
+        "stock":15
+     },
+     {
+        "name":"Redmi 13 5g Black Diamond Redmi 13 5G, 6GB+128GB| 108MP Pro Grade Camera | 6.79in Largest Display in Segment",
+        "price":15000,
+        "description":"Xiaomi Redmi Note 13 4G LTE (256GB + 8GB) 6.67 108MP Triple (Tmobile Mint Tello Global) Global Bands Unlocked + (Fast Car Dual Charger Bundle) (MidnightBlack Global ROM)",
+        "rating":4.8,
+        "images":[
+         {
+         "image":"/images/products/3.jpg"
+         }
+        ],
+        "catagory":"Mobile Phone",
+        "seller":"Amazon",
+        "stock":45
+     },
+     {
+        "name":"POCO M6 5G (Galactic Black, 8GB RAM, 256GB Storage) | MediaTek Dimensity 6100+ 5G Processor | 5000 mAh Battery + 18W Fast Charging",
+        "price":25000,
+        "description":"Poco C65 4G LTE GSM (256GB + 8GB) 50MP Triple Camera 6.74 Octa Core (Tmobile Mint Tello Global) Global Unlocked + (w/Fast 33w Car Charger) (Blue Global ROM)",
+        "rating":4.0,
+        "images":[
+         {
+         "image":"/images/products/4.jpg"
+         }
+        ],
+        "catagory":"Mobile Phone",
+        "seller":"Amazon",
+        "stock":7
+     },
+     {
+        "name":"realme 13 Pro+ 5G (Monet Gold, 8GB RAM, 256GB) | Upto 16GB Dynamic RAM | Snapdragon 7s Gen2 Processor",
+        "price":18000,
+        "description":"realme 13 pro 2021Android 11 | Dual 13 MP+2 MP LED Flash, 1080p@30fps | Li-Po 5000 mAh | International Model (GSM Compatible) (Not Verizon Sprint Boost Metro PCS Cricket) (64+4GB, Grey)",
+        "rating":4.4,
+        "images":[
+         {
+         "image":"/images/products/5.jpg"
+         }
+        ],
+        "catagory":"Mobile Phone",
+        "seller":"Amazon",
+        "stock":19
+     },
+     {
+        "name":"OnePlus 12R, 8GB RAM+128GB, Dual-SIM, US Factory Unlocked Android Smartphone",
+        "price":50000,
+        "description":"OnePlus 12R, 8GB RAM+128GB, Dual-SIM, US Factory Unlocked Android Smartphone, 5500 mAh Battery, 50MP Camera, 80W Fast Charging, 2024, Iron Gray",
+        "rating":4.6,
+        "images":[
+         {
+         "image":"/images/products/6.jpg"
+         }
+        ],
+        "catagory":"Mobile Phone",
+        "seller":"Amazon",
+        "stock":6
+     },
+     {
+        "name":"Sony Xperia 1 V 256GB 5G Factory Unlocked Smartphone ",
+        "price":32000,
+        "description":"Sony Xperia 1 V 256GB 5G Factory Unlocked Smartphone [U.S. Official w/Warranty],Black",
+        "rating":4.3,
+        "images":[
+         {
+         "image":"/images/products/7.jpg"
+         }
+        ],
+        "catagory":"Mobile Phone",
+        "seller":"Amazon",
+        "stock":7
+ 
+     }
+]
